@@ -1,0 +1,29 @@
+body {
+  background-color: #000;
+}
+button:hover {
+  cursor: pointer;
+  border: 2px solid white;
+  transition: 0.5s;
+}
+
+#stopwatch,
+#buttons {
+  text-align: center;
+}
+
+#stopwatch {
+  font-size: 11vw;
+  color: orange;
+}
+
+#startButton,
+#stopButton,
+#resetButton {
+  margin: 1%;
+  padding: 1%;
+  width: 75px;
+  border-radius: 5%;
+  background-color: #4aae71;
+  color: white;
+}
